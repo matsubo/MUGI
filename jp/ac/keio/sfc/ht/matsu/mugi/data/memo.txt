@@ -1,0 +1,76 @@
+$GPGGA format 
+$GPGGA,m1,m2,c1,m3,c2,d1,d2,f1,f2,M,f3,M,f4,d3*cc
+m1: Current UTC time of position fix in hours, minutes, and seconds(hhmmss.ss)
+m2: Latitude component of position in degrees and decimal minutes(ddmm.mmmmmm)
+c1: Direction of latitude: N = North, S = South (a)
+m3: Longitudinal component of position indegrees and decimal minutes(dddmm.mmmmmm)
+c2: Direction of longitude: E = East, W = West (a)
+d1: Position type: 0=Invalid or not available, 1=Autonomous position, 
+	2=RTCM or SBAS differentially corrected (n)
+d2: Number of satellites used in position computation (nn)
+f1: Horizontal dilution position:HDOP (nn.nnn)
+f2: Altitude in meters above the reference ellipsoid. For 2-D position
+	 computation, this item contains the user-entered altitude used
+	 to compute the position computation.
+M:  Altitude units: M=meters (a)
+f3: Geoidal separation in meters (+/-ddd.dd)
+M:  Geoidal separation units: M=meters (a)
+d3: Age of differential corrections in seconds (nnn)
+d4: Base station ID for RTCM use only. (nnnn)
+cc: checksum
+
+--------------------------------------------------------------------------------
+
+
+m1: hh:mm:ss ŠÏ‘ªi‚t‚s‚bj
+m2: NN nn.nnn[N] –kˆÜNN“xnn.nnn•ª
+m3: ‚d‚d ee.eee[E] “ŒŒo‚d‚d“xee.eee•ª
+d1: ‘ªˆÊó‹µ@‚OF‘ªˆÊ—˜—p•s‰Â@‚PF‘ªˆÊ—˜—p‰Â@2:·“®•â³
+d2: g—p‰q¯”
+f1: …•½‘ªˆÊŒë·(HDOP: horizontal dilution of precision@00.00‚Ìê‡‚ÍŒë·•]‰¿‚Å‚«‚È‚¢‚±‚Æ¦‚µ‚Ä‚¢‚é)
+f2: ŠC”²‚“x[m]
+f3: ƒWƒIƒCƒh‚[m]  
+
+
+
+
+
+
+
+
+
+
+
+
+
+$GPRMC format:  
+$GPRMC,f1,c2,f3,c4,f5,c6,f7,f8,s9,f10,c11,c12*cc
+f1: UTC time of the GGA position fix associated with this sentence(hhmmss.ss)
+c2: Status: A=data valid, V=navigation receiver warming
+f3: Latitude (ddmm.mmmm)
+c4: Latitude direction: N=north, S=south
+f5: Longitude (dddmm.mmmm)
+c6: Longitude direction: E=east, W=west
+f7: Speed over ground in knots
+f8: Course over ground in degrees from the true north
+s9: Date (mmddyy)
+f10: Magnetic variation in degrees NMEA 0183 v3.0 only
+c11: Direction of variation: NMEA 0183 v3.0 only
+	E=east: Easterly variation(E) subtracts from true courses.
+	W=west: Westerly variation(W) adds from true courses.
+c12: Mode indicator: NMEA 0183 v3.0 only
+	A=autonomous, D=differential, E=Estimated (dead reckoning),
+	M=manual input, S=simulator, N=data not valid
+cc: Hexadecimal cheksum computed by exclusive-ORing all bytes 
+	in the message between, but not including, the $ and the *.
+	The results is *hh, where h is a hex character 0-9 or A-F.
+
+
+
+
+
+
+
+
+
+

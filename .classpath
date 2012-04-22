@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/comm.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/datumlibrary.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jts-1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Acme.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/geotools-parts.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gt2-main.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="lib" path="lib/JTS_Test.jar"/>
+	<classpathentry kind="lib" path="lib/jts-src.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/postgis.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/postgresql743.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/postgres-src.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xerces.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
